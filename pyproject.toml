@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "stencilpy"
+version = "0.1.0"
+description = "Stencilpy is a tool that allows you create projects by a template with python code injection inside patterns"
+authors = ["Kurabtov Yan <deknowny@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
